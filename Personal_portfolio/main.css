@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(0, 16, 26);
+    color: whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 30px;
+    text-align: justify;
+}
+header{
+    background-color: rgb(0, 16, 26);
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    list-style: none;
+    display: flex;
+    
+}
+.content li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.img1 img{
+    height: 350px;
+    border-radius: 5px;
+}
+.about{
+    margin:30px;
+    background-color: rgb(0, 16, 26);
+    background-blend-mode:color-burn;
+    display: flex;
+    flex-direction: row;
+}
+.about_me{
+    margin: 30px;
+    text-align: justify;
+}
+section h2{
+    color: rgb(53, 157, 199);
+}
+.b1{
+    background-color: rgb(53, 157, 199);
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    width: 100px;
+    font-size: medium;
+    color: whitesmoke;
+}
+.b1 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.b2{
+    background:transparent;
+    border-radius: 5px;
+    border: solid rgb(53, 157, 199);
+    height: 35px;
+    width: 100px;
+    font-size: medium;
+    color: rgb(53, 157, 199);
+    text-decoration: none;
+
+}
+.b2 a{
+    text-decoration: none;
+    color: rgb(53, 157, 199);
+}
+.social{
+    margin-top: 120px;
+}
+.social img{
+    height: 40px;
+}
+a:hover{
+    color: red;
+}
+#educ{
+    margin: 50px;
+}
+.educ{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+#skills{
+    margin: 50px;
+}
+.skill_s{
+    display: flex;
+    justify-content: space-evenly;
+}
+.resume{
+    margin-top: 50px;
+    margin: 50px;
+}
+.resume div button{
+    background: transparent;
+    height: 40px;
+    width:400px;
+}
+.resume div button a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size:large;
+}
+.contact td a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.contact h3 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.contact{
+    margin: 50px;
+}
