@@ -1,0 +1,42 @@
+header{
+    margin: 50px;
+}
+body{
+    background-image: url(bg2.webp) ;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input{
+    background: transparent;
+    color: white;
+    border-color: rgb(154, 146, 146);
+}
+select{
+    background: transparent;
+    color: white;
+    border-color: rgb(255, 255, 255);
+    border: groove 2px;
+}
+h1{
+    text-align: center;
+}
+.temp_con{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.temp_con button{
+    height: 30px;
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    width: 300px;
+}
+option{
+    color: rgb(131, 132, 133);
+}
